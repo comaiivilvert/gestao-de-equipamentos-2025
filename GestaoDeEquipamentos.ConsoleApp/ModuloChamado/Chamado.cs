@@ -1,5 +1,4 @@
 ﻿using GestaoDeEquipamentos.ConsoleApp.ModuloEquipamento;
-
 namespace GestaoDeEquipamentos.ConsoleApp.ModuloChamado;
 
 public class Chamado
@@ -8,6 +7,6 @@ public class Chamado
     public string titulo;
     public string descricao;
     public DateTime dataAbertura;
-
+    
     public Equipamento equipamento;
 }
